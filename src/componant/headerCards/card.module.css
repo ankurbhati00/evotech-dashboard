@@ -1,10 +1,11 @@
 .card {
   display: inline-block;
-  height: 90%;
+  height: 180px;
   width: 200px;
   margin: 1%;
   box-shadow: 1px 1px 10px 5px rgb(235, 230, 230);
   border-radius: 10px;
+  padding: 10px 0px;
 }
 .card img {
   height: 50%;
@@ -18,4 +19,5 @@
   overflow-wrap: break-word;
   margin: 0;
   font-weight: 500;
+  /* font-size: 1.5rem; */
 }

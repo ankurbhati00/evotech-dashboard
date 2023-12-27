@@ -62,4 +62,7 @@
     width: 20%;
     display: none;
   }
+  .user_name{
+    font-size: 0.7rem;
+  }
 }

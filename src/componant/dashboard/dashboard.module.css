@@ -4,7 +4,7 @@
   height: fit-content;
 }
 .card_container {
-  height: 30%;
+  /* height: 30%; */
   margin: 3%;
   display: flex;
   /* flex-direction: column; */
@@ -13,18 +13,17 @@
   align-items: center;
 }
 #section1 {
-  height: 40%;
-  width: 98%;
+  height: 400px;
+  width: 96%;
   display: flex;
   gap: 1%;
-  flex-wrap: wrap;
   margin: 1%;
   padding: 1%;
   justify-content: center;
   align-items: center;
 }
 #section1 > div {
-  height: 100%;
+  height: 100% ;
   width: 50%;
   box-sizing: border-box;
   border-radius: 10px;
@@ -47,11 +46,14 @@
     width: 100% !important;
     font-size: 0.6rem;
   }
-  .items_container{
+  .items_container {
     font-size: 0.6rem;
   }
   #section1 > div {
     width: 100%;
   }
- 
+  #section1{
+    flex-wrap: wrap;
+    height: 40%;
+  }
 }

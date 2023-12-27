@@ -1,0 +1,65 @@
+.header{
+  box-sizing: border-box;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+  padding-right: 2%;
+  border-bottom: 1px solid gray;
+}
+.navbar li {
+  padding: 0 5px;
+}
+.user_name {
+  background-color: rgba(238, 235, 231, 0.652);
+  padding: 4px;
+  border-radius: 2px;
+  margin: 0 4px;
+  line-height: 30px;
+  font-size: 0.8rem;
+}
+.navbar2 {
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.navbar2 div span {
+  padding: 0 15px;
+}
+.navbar2 .highlited{
+    background-color:rgb(233, 241, 249);
+    padding:5px 10px;
+    border-radius: 2px;
+}
+#min_dashboard{
+    border-right: 1px solid black;
+
+}
+#add_btn{
+    background-color: bisque;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    color: rgb(171, 171, 124);
+}
+
+@media only screen and (max-width:800px) {
+  .navbar2{
+    font-size: 0.5rem;
+    justify-content: start;
+  }
+  .min_container{
+    width: 20%;
+  }
+}
+@media only screen and (max-width:400px) {
+  
+  .min_container{
+    width: 20%;
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.sidebar_container {
+  background-color: #1e1e2d;
+  height: 230%;
+  width: 18%;
+  color: white;
+  padding:0 1%;
+}
+.sidebar_container h1{
+    font-weight: 700;
+}
+.sidebar_container h3{
+    font-weight: 100;
+    padding: 20px 0;
+    
+}
+.sidebar_container h5{
+    opacity: .7;
+    font-weight: 400;
+}
+.sidebar_container ul{
+    list-style: none;
+}
+.sidebar_container ul li{
+    padding: 10px 0;
+}
+.sidebar_container li dl{
+    margin: 0;
+}
+.sidebar_container li dd{
+    opacity: .5;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 800px) {
+  .sidebar_container {
+    width: 0% !important;
+    display: none;
+  }
+}

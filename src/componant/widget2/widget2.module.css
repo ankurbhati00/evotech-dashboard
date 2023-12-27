@@ -1,0 +1,10 @@
+#sales_container{
+    padding: 1.5% 2%;
+}
+#sales_container h2{
+    margin: 0;
+    font-weight: 500;
+}
+#items_container{
+   padding: 1%;
+}

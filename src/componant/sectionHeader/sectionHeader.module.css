@@ -1,0 +1,32 @@
+.container {
+  /* background-color: rgb(63, 44, 44); */
+  height: 10%;
+  width: 98%;
+  z-index: 9;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.container h2 {
+  margin: 0;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.container h4 {
+  margin: 0;
+  font-weight: 500;
+  color: gray;
+  opacity: 0.7;
+}
+
+.buttons_container button {
+  padding: 0.3vw 0.5vw;
+  margin: 0.6vw;
+  border: none;
+  border-radius: 5%;
+  background-color: rgba(220, 220, 220, 0.281);
+}
+.buttons_container button:hover{
+    color: white;
+    background-color: rgb(42, 42, 79);
+}
